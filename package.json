@@ -1,0 +1,17 @@
+{
+  "name": "typograph-cli",
+  "version": "1.0.0",
+  "description": "CLI and library for Russian text typography (ёфикатор, кавычки, тире, неразрывные пробелы, валюта, телефоны) and FreeMarker/JSON templates",
+  "type": "module",
+  "license": "UNLICENSED",
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "typograph": "bin/typograph.js"
+  },
+  "scripts": {
+    "test": "node --test",
+    "build:bundle": "node scripts/build-bundle.mjs"
+  }
+}

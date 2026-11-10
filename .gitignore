@@ -1,0 +1,41 @@
+# IDE / editor
+.idea/
+*.iml
+.vscode/
+
+# OpenCode local config (agent skills, node_modules, lockfile)
+.opencode/
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+build/
+coverage/
+.next/
+.nuxt/
+.cache/
+.turbo/
+*.tsbuildinfo
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Local artifacts
+*.tmp
+*.swp
+*.bak
