@@ -4,6 +4,10 @@
   "description": "CLI and library for Russian text typography (ёфикатор, кавычки, тире, неразрывные пробелы, валюта, телефоны) and FreeMarker/JSON templates",
   "type": "module",
   "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yakaska/typograph-cli.git"
+  },
   "engines": {
     "node": ">=18"
   },
